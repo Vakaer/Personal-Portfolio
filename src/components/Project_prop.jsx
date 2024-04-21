@@ -8,7 +8,7 @@ const Project_prop = (props) => {
 
   return (
     <>
-      <div className=" border-[#00040f] shadow-xl  bg-[#e1e1e1] dark:bg-transparent dark:border-white border rounded-xl max-sm:h-[450px] p-7  max-sm:p-3  hover:bg-gradient-to-tl from-[#ccc] to-[#e1e1e1] dark:from-[#00040F] dark:to-[#0B274C]">
+      <div className=" border-[#00040f] shadow-xl  bg-[#e1e1e1] dark:bg-transparent dark:border-white border rounded-xl p-7  max-sm:p-3  hover:bg-gradient-to-tl from-[#ccc] to-[#e1e1e1] dark:from-[#00040F] dark:to-[#0B274C]">
         <div className="HEADER">
           <div className="HEADING flex gap-7 max-sm:gap-0">
             <div className="p-3 ">
@@ -26,7 +26,7 @@ const Project_prop = (props) => {
                 Tech Stack
               </h3>
 
-              <div className="flex gap-1 p-1 -translate-x-2">
+              <div className="flex flex-wrap gap-1 p-1 -translate-x-2">
                 {props.react}
                 {props.vite}
                 {props.html5}
